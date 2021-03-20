@@ -1,0 +1,100 @@
+.info {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: white;
+  text-align: left;
+  transform: translate(-50%, -50%);
+}
+.info h3 {
+  margin: 20px 0;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 4px;
+}
+.info p {
+  line-height: 36px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+}
+.info span {
+  text-transform: capitalize;
+  line-height: 36px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  color: white !important;
+  left: 1rem;
+  width: 60px;
+  height: 60px;
+  font-size: 35px !important;
+  border-radius: 50% !important;
+}
+.owl-nav .owl-prev:hover {
+  background: #869791 !important;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  color: white !important;
+  right: 1rem;
+  width: 60px;
+  height: 60px;
+  font-size: 35px !important;
+  border-radius: 50% !important;
+}
+.owl-nav .owl-next:hover {
+  background: #869791 !important;
+}
+.content {
+  margin: 2rem 0;
+}
+.content h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.service {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  background: #f6f7fb;
+}
+.service h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.service p {
+  color: #898989;
+  font-size: 1rem;
+}
+.subscribe {
+  margin-top: 3rem;
+}
+.content__info .ant-tabs-nav-wrap {
+  justify-content: center;
+}
+.ant-card-cover img {
+  display: block;
+  width: 100%;
+}
+.ant-card-meta-description {
+  color: red;
+}

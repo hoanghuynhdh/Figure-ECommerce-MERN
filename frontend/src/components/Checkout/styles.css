@@ -1,0 +1,19 @@
+.checkout-cart {
+  border: 1px solid #956bc7;
+}
+.pay ul {
+  text-align: left;
+}
+.pay div {
+  padding: 10px;
+}
+input.payment:checked ~ div.payment,
+input.momo:checked ~ div.momo,
+input.cod:checked ~ div.cod {
+  display: block;
+}
+input.payment ~ div.payment,
+input.momo ~ div.momo,
+input.cod ~ div.cod {
+  display: none;
+}

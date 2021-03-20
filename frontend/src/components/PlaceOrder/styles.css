@@ -1,0 +1,7 @@
+.placeOrder__right ul {
+  text-align: left;
+  box-shadow: 0 20px 35px -5px rgba(255, 151, 195, 0.25);
+}
+.placeOrder__right li {
+  margin: 1.5rem;
+}

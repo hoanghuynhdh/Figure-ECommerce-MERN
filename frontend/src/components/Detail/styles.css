@@ -1,0 +1,16 @@
+.detail {
+  text-align: left;
+}
+.big-image img {
+  object-fit: cover;
+}
+.ant-input-number-input {
+  text-align: center;
+}
+.detail-item,
+.detail-quantity {
+  display: flex;
+}
+.item--image img:hover {
+  opacity: 1 !important;
+}
