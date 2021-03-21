@@ -6,8 +6,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
-    "build": "cd frontend && npm install && npm run build"
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoanghuynhdh/Figure-ECommerce-MERN.git"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +29,5 @@
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.22.0",
     "nodemon": "^2.0.6"
-  },
-  "heroku-run-build-script": true
+  }
 }
