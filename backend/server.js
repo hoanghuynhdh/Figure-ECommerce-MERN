@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-mongoose.connect(process.env.MONGODB_URL || "mongodb+srv://hoanghuynhdh99:0898124973@mern.wituw.mongodb.net/test", {
+mongoose.connect(process.env.MONGODB_URL || "mongodb+srv://hoanghuynhdh99:0898124973@mern.wituw.mongodb.net/figure?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
